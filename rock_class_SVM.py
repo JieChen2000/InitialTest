@@ -104,3 +104,9 @@ lin_clf = GridSearchCV(lin_svc, parameters)
 lin_clf.fit(X_train, y_train)
 print(lin_clf.best_params_)
 
+'''
+for SVM, 
+kernal function: linear, poly, rbgf (linear seems best on F1)
+decision function shape ovr 
+'''
+

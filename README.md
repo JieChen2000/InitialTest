@@ -5,7 +5,7 @@ simple algorithm yield good enough result, adding more feature won't improve muc
 
 complicated algorithm needs more feature engnieering to get better result. 
 
-adding adding IDL/phid as extra attributes helps on all cases(SVM, DNN, DNN+feature augmentation) tested. 
+adding adding IDL/phid as extra attributes helps on all cases(SVM(0.43-0.44), DNN+feature augmentation(0.5-0.56)) tested. 
 
 ---comparison for below ways of predictions, under same conditions, one change a time. 
 
